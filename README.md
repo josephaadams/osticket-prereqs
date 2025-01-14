@@ -104,6 +104,8 @@ Purpose: Manage MySQL databases.
 - php_imap.dll
 - php_intl.dll
 - php_opcache.dll
+
+<img src="https://i.imgur.com/qKDXNtr.png"/>
   
 **4. Configure ost-config.php**
 - Rename the file:
