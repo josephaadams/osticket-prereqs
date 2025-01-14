@@ -98,7 +98,9 @@ Purpose: Manage MySQL databases.
 - Stop and Start the server.
 - Go to Sites > Default > osTicket.
 - On the right, click “Browse *:80” to open osTicket in your browser.
-  
+
+<img src="https://i.imgur.com/06iSCbJ.png"/>
+
 **3. Enable PHP Extensions**
 - In IIS, go to Sites > Default > osTicket.
 - Double-click PHP Manager.
