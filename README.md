@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
-<h1>osTicket - Prerequisites and Installation</h1>
+<h1>osTicket - Prerequisites and Installation using Azure</h1>
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
 
@@ -93,6 +93,25 @@ Ensure the C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php file is rena
 Adjust file permissions to allow IIS to write to the configuration file during setup.
 
 <h2>Installation Steps</h2>
+
+- Provision the Azure VM: Set up a Windows 10 (21H2) VM with the necessary resources.
+  
+- Connect via Remote Desktop: Use RDP to access the VM.
+  
+- Enable IIS and Required Features: Install IIS with CGI and Common HTTP Features.
+  
+- Install PHP Manager and URL Rewrite Module: Add these components to IIS.
+  
+- Set Up PHP: Install PHP 7.3.8 NTS and register it with IIS.
+  
+- Install Visual C++ Redistributable: Ensure PHP has the necessary runtime components.
+  
+- Install MySQL Server: Set up the database server and create the osticket database.
+  
+- Deploy osTicket Files: Place the osTicket files in the IIS root directory and configure permissions.
+  
+- Configure osTicket via Web Installer: Navigate to http://localhost/osTicket in a browser and follow the on-screen instructions to complete the installation.
+
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
