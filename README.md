@@ -112,6 +112,8 @@ Purpose: Manage MySQL databases.
 - Assign permissions:
 - Disable inheritance and remove all permissions.
 - Add Everyone with Full Control.
+
+  <img src="https://i.imgur.com/y4nzXUS.png"/>
   
 **5. Set Up the Database**
 - Install HeidiSQL from the installation files.
