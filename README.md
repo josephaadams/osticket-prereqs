@@ -3,7 +3,7 @@
 </p>
 
 <h1>osTicket - Prerequisites and Installation using Azure</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+This project demonstrates the steps to set up and install osTicket v1.15.8 on a Windows server environment. The guide includes configuring the necessary prerequisites, installing osTicket, and setting up the database.<br />
 
 
 <h2>Files Needed</h2>
