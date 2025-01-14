@@ -39,7 +39,7 @@ Included Files:
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure: Hosting the virtual machine (VM).
+- Microsoft Azure: Hosting the virtual machine.
 - Remote Desktop (RDP): Managing the VM.
 - Internet Information Services (IIS): Web server for hosting osTicket.
 - PHP 7.3.8: Required for osTicket to run.
