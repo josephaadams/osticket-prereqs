@@ -31,13 +31,14 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Remote Desktop Connection (RDP)
 
-Purpose: Allows remote access to the Azure VM for configuration and management.
-Setup: Use the Remote Desktop client to connect to the VM using its public IP address.
+**Purpose**: Allows remote access to the Azure VM for configuration and management.
+**Setup**: Use the Remote Desktop client to connect to the VM using its public IP address.
 
 - Internet Information Services (IIS)
 
-Purpose: Serves as the web server to host the osTicket application.
-Setup: Enable IIS on the VM:
+**Purpose**: Serves as the web server to host the osTicket application.
+
+**Setup**: Enable IIS on the VM:
 Navigate to Control Panel > Programs > Turn Windows features on or off.
 Expand Internet Information Services > World Wide Web Services > Application Development Features.
 Check CGI.
@@ -45,17 +46,19 @@ Ensure Common HTTP Features are also enabled.
 
 - PHP Manager for IIS
 
-Purpose: Simplifies the management of PHP installations and configurations within IIS.
+**Purpose**: Simplifies the management of PHP installations and configurations within IIS.
 Setup: Install PHP Manager for IIS from the official source or included installation files.
 
 - URL Rewrite Module for IIS
 
 Purpose: Enables URL rewriting capabilities, allowing for cleaner and more user-friendly URLs in osTicket.
+
 Setup: Install the URL Rewrite Module from Microsoft's official site or the provided installation files.
 
 - PHP 7.3.8 (Non-Thread Safe)
 
 Purpose: Executes the PHP scripts that power osTicket.
+
 Setup:
 Create a directory at C:\PHP.
 Download and extract the PHP 7.3.8 NTS version into the C:\PHP folder.
@@ -64,11 +67,13 @@ Register PHP within IIS using PHP Manager, pointing to C:\PHP\php-cgi.exe.
 - Microsoft Visual C++ Redistributable (VC_redist.x86.exe)
 
 Purpose: Provides necessary runtime components required by PHP to function correctly.
+
 Setup: Install the Visual C++ Redistributable for Visual Studio 2015 (or the version corresponding to PHP 7.3.8) from Microsoft's official site or the provided installation files.
 
 - MySQL Server 5.5.62
 
 Purpose: Serves as the database management system to store osTicket data, including tickets, user information, and configurations.
+
 Setup:
 Download and install MySQL Server 5.5.62.
 During installation, set a root password and configure the server as per your requirements.
@@ -77,6 +82,7 @@ After installation, create a database named osticket for the application.
 - osTicket Installation Files
 
 Purpose: Contains the core files necessary to install and run osTicket.
+
 Setup:
 Download the osTicket installation package.
 Extract the contents and copy the upload folder to C:\inetpub\wwwroot.
