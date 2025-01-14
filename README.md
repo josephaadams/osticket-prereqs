@@ -117,6 +117,8 @@ Purpose: Manage MySQL databases.
 - Install HeidiSQL from the installation files.
 - Open HeidiSQL and create a new session (root/root).
 - Connect to the session and create a database called osTicket.
+
+<img src="https://i.imgur.com/tlwie81.png"/>
   
 **6. Complete osTicket Setup in the Browser**
 - Open the osTicket installation page in your browser.
