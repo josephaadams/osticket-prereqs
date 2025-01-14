@@ -94,19 +94,19 @@ Adjust file permissions to allow IIS to write to the configuration file during s
 
 <h2>Installation Steps</h2>
 
-1. Install osTicket v1.15.8
+**1. Install osTicket v1.15.8**
 - Unzip osTicket-v1.15.8.zip from the installation files.
 - Copy the upload folder to C:\inetpub\wwwroot.
 - Rename upload to osTicket.
   
-2. Configure IIS
+**2. Configure IIS**
 - Reload IIS:
 - Open IIS.
 - Stop and Start the server.
 - Go to Sites > Default > osTicket.
 - On the right, click “Browse *:80” to open osTicket in your browser.
   
-3. Enable PHP Extensions
+**3. Enable PHP Extensions**
 - In IIS, go to Sites > Default > osTicket.
 - Double-click PHP Manager.
 - Click “Enable or disable an extension” and enable:
@@ -114,7 +114,7 @@ Adjust file permissions to allow IIS to write to the configuration file during s
 - php_intl.dll
 - php_opcache.dll
   
-4. Configure ost-config.php
+**4. Configure ost-config.php**
 - Rename the file:
 - From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
 - To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
@@ -122,12 +122,12 @@ Adjust file permissions to allow IIS to write to the configuration file during s
 - Disable inheritance and remove all permissions.
 - Add Everyone with Full Control.
   
-5. Set Up the Database
+**5. Set Up the Database**
 - Install HeidiSQL from the installation files.
 - Open HeidiSQL and create a new session (root/root).
 - Connect to the session and create a database called osTicket.
   
-6. Complete osTicket Setup in the Browser
+**6. Complete osTicket Setup in the Browser**
 - Open the osTicket installation page in your browser.
 - Provide the following details:
 - Helpdesk Name: Choose a name for your help desk.
