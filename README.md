@@ -8,9 +8,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Files Needed</h2>
 
-**Download the required files from the link below. These files include all necessary installers and packages for setting up osTicket.**
+**Download the required files from the link below. These files include all necessary installers and packages for setting up osTicket.** 
 
-Download Installation Files
+### [Download Installation Files](https://drive.google.com/file/d/1jp6LjByxja6CpoSbOz6Cs8BUIdk_gbSx/view?usp=drive_link)
+
 
 Included Files:
 
