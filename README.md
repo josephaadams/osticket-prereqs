@@ -6,9 +6,35 @@
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
 
-<h2>Video Demonstration</h2>
+<h2>Files Needed</h2>
 
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
+**Download the required files from the link below. These files include all necessary installers and packages for setting up osTicket.**
+
+Download Installation Files
+
+Included Files:
+
+1. Rewrite Module for IIS (rewrite_amd64_en-US.msi)
+- Required for URL rewriting in IIS.
+
+2. Microsoft Visual C++ Redistributable (VC_redist.x86.exe)
+- Provides runtime libraries required by PHP.
+
+3. osTicket v1.15.8 (osTicket-v1.15.8.zip)
+- Contains the osTicket application files.
+
+4. PHP 7.3.8 (NTS) (php-7.3.8-nts-Win32-VC15-x86.zip)
+- PHP runtime required for osTicket.
+
+5. PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
+- Tool to manage PHP configurations in IIS.
+
+6. MySQL Server (mysql-5.5.62-win32.msi)
+- Database server to store osTicket data.
+
+7. HeidiSQL (HeidiSQL_12.3.0.6589_Setup.exe)
+- Database management tool for MySQL.
+
 
 <h2>Environments and Technologies Used</h2>
 
