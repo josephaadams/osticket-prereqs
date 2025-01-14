@@ -25,8 +25,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Microsoft Azure Virtual Machine
 
-Purpose: Hosts the Windows environment where osTicket will be installed.
-Setup: Provision a VM with Windows 10 (21H2), ensuring adequate resources (e.g., 2 CPUs, 4GB RAM).
+*Purpose*: Hosts the Windows environment where osTicket will be installed.
+*Setup*: Provision a VM with Windows 10 (21H2), ensuring adequate resources (e.g., 2 CPUs, 4GB RAM).
 
 - Remote Desktop Connection (RDP)
 
