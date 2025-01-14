@@ -94,23 +94,48 @@ Adjust file permissions to allow IIS to write to the configuration file during s
 
 <h2>Installation Steps</h2>
 
-- Provision the Azure VM: Set up a Windows 10 (21H2) VM with the necessary resources.
+1. Install osTicket v1.15.8
+- Unzip osTicket-v1.15.8.zip from the installation files.
+- Copy the upload folder to C:\inetpub\wwwroot.
+- Rename upload to osTicket.
   
-- Connect via Remote Desktop: Use RDP to access the VM.
+2. Configure IIS
+- Reload IIS:
+- Open IIS.
+- Stop and Start the server.
+- Go to Sites > Default > osTicket.
+- On the right, click “Browse *:80” to open osTicket in your browser.
   
-- Enable IIS and Required Features: Install IIS with CGI and Common HTTP Features.
+3. Enable PHP Extensions
+- In IIS, go to Sites > Default > osTicket.
+- Double-click PHP Manager.
+- Click “Enable or disable an extension” and enable:
+- php_imap.dll
+- php_intl.dll
+- php_opcache.dll
   
-- Install PHP Manager and URL Rewrite Module: Add these components to IIS.
+4. Configure ost-config.php
+- Rename the file:
+- From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
+- To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+- Assign permissions:
+- Disable inheritance and remove all permissions.
+- Add Everyone with Full Control.
   
-- Set Up PHP: Install PHP 7.3.8 NTS and register it with IIS.
+5. Set Up the Database
+- Install HeidiSQL from the installation files.
+- Open HeidiSQL and create a new session (root/root).
+- Connect to the session and create a database called osTicket.
   
-- Install Visual C++ Redistributable: Ensure PHP has the necessary runtime components.
-  
-- Install MySQL Server: Set up the database server and create the osticket database.
-  
-- Deploy osTicket Files: Place the osTicket files in the IIS root directory and configure permissions.
-  
-- Configure osTicket via Web Installer: Navigate to http://localhost/osTicket in a browser and follow the on-screen instructions to complete the installation.
+6. Complete osTicket Setup in the Browser
+- Open the osTicket installation page in your browser.
+- Provide the following details:
+- Helpdesk Name: Choose a name for your help desk.
+- Default Email: Specify an email address to receive customer tickets.
+- MySQL Database: osTicket
+- MySQL Username: root
+- MySQL Password: root
+- Click Install Now!
 
 
 <p>
