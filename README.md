@@ -12,10 +12,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure: Hosting the virtual machine (VM).
-- Remote Desktop: Accessing and managing the VM.
-- Internet Information Services (IIS): Web server for hosting osTicket.
-- Operating System: Windows 10 (21H2).
+- Microsoft Azure: Hosting the virtual machine 
+- Remote Desktop: Accessing and managing the VM
+- Internet Information Services (IIS): Web server for hosting osTicket
+- Operating System: Windows 10 
 
 <h2>Operating Systems Used </h2>
 
