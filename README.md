@@ -52,7 +52,7 @@ Included Files:
 
 <h2>List of Prerequisites</h2>
 
-**1. Microsoft Azure Virtual Machine** (If you don't know how to create a VM using azure, check out my guide: **********REPLACEEEEE**********)
+**1. Microsoft Azure Virtual Machine** (If you don't know how to create a VM using azure, check out my guide: [https://github.com/josephaadams/azure-vmcreation])
 
 - Purpose: Host the Windows environment for osTicket.
 - Setup: Provision a VM with Windows 10 (21H2) or a compatible server OS.
