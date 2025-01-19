@@ -52,34 +52,34 @@ Included Files:
 
 <h2>List of Prerequisites</h2>
 
-**1. Microsoft Azure Virtual Machine**
+**1. Microsoft Azure Virtual Machine** (If you don't know how to create a VM using azure, check out my guide: **********REPLACEEEEE**********)
 
 - Purpose: Host the Windows environment for osTicket.
 - Setup: Provision a VM with Windows 10 (21H2) or a compatible server OS.
 
-**2. Internet Information Services (IIS)**
+**2. Internet Information Services (IIS)** 
 
 - Purpose: Host the osTicket web application.
 - Setup: Enable IIS with CGI and HTTP features.
 
-**3. PHP 7.3.8 (NTS)**
+**3. PHP 7.3.8 (NTS)** (Included in the Installation Files)
 
 - Purpose: Execute PHP scripts required by osTicket.
 - Setup: Install PHP in C:\PHP and register it with IIS using PHP Manager.
 
-**4. URL Rewrite Module for IIS**
+**4. URL Rewrite Module for IIS** (Included in the Installation Files)
 
 - Purpose: Enable clean and functional URLs in osTicket.
 
-**5. Microsoft Visual C++ Redistributable**
+**5. Microsoft Visual C++ Redistributable** (Included in the Installation Files)
 
 - Purpose: Provide runtime support for PHP.
 
-**6. MySQL Server 5.5.62**
+**6. MySQL Server 5.5.62** (Included in the Installation Files)
 
 Purpose: Database server to store osTicket data.
 
-**7. HeidiSQL**
+**7. HeidiSQL** (Included in the Installation Files)
 
 Purpose: Manage MySQL databases.
 
