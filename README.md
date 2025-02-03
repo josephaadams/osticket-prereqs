@@ -6,35 +6,12 @@
 This project demonstrates the steps to set up and install osTicket v1.15.8 on a Windows server environment. The guide includes configuring the necessary prerequisites, installing osTicket, and setting up the database.<br />
 
 
-<h2>Files Needed</h2>
+<h2>Download Required Files</h2>
 
-**Download the required files from the link below. These files include all necessary installers and packages for setting up osTicket.** 
+**All necessary installation files can be downloaded from the link below:** 
 
 ### [Download Installation Files](https://drive.google.com/file/d/1jp6LjByxja6CpoSbOz6Cs8BUIdk_gbSx/view?usp=drive_link)
 
-
-Included Files:
-
-1. Rewrite Module for IIS (rewrite_amd64_en-US.msi)
-- Required for URL rewriting in IIS.
-
-2. Microsoft Visual C++ Redistributable (VC_redist.x86.exe)
-- Provides runtime libraries required by PHP.
-
-3. osTicket v1.15.8 (osTicket-v1.15.8.zip)
-- Contains the osTicket application files.
-
-4. PHP 7.3.8 (NTS) (php-7.3.8-nts-Win32-VC15-x86.zip)
-- PHP runtime required for osTicket.
-
-5. PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
-- Tool to manage PHP configurations in IIS.
-
-6. MySQL Server (mysql-5.5.62-win32.msi)
-- Database server to store osTicket data.
-
-7. HeidiSQL (HeidiSQL_12.3.0.6589_Setup.exe)
-- Database management tool for MySQL.
 
 
 <h2>Environments and Technologies Used</h2>
