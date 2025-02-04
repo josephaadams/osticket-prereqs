@@ -63,6 +63,8 @@ This project demonstrates the steps to set up and install osTicket v1.15.8 on a 
 
 . php_opcache.dll
 
+<img src="https://i.imgur.com/qKDXNtr.png"/>
+
 **4. Install MySQL Server & HeidiSQL**
 - Install MySQL Server (mysql-5.5.62-win32.msi).
 
@@ -94,16 +96,6 @@ This project demonstrates the steps to set up and install osTicket v1.15.8 on a 
 - On the right panel, click “Browse *:80” to open osTicket in your browser.
 
 <img src="https://i.imgur.com/06iSCbJ.png"/>
-
-**3. Enable PHP Extensions** (REMOVE STEP)
-- In IIS, go to Sites > Default > osTicket.
-- Double-click PHP Manager.
-- Click “Enable or disable an extension” and enable:
-- php_imap.dll
-- php_intl.dll
-- php_opcache.dll
-
-<img src="https://i.imgur.com/qKDXNtr.png"/>
   
 **7. Configure ost-config.php**
 - Rename the file:
