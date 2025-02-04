@@ -31,8 +31,9 @@ This project demonstrates the steps to set up and install osTicket v1.15.8 on a 
 
 **1. Setup Microsoft Azure Virtual Machine** (If you need help creating a VM, follow my guide: https://github.com/josephaadams/azure-vmcreation
 
-- Purpose: Host the Windows environment for osTicket.
-- Setup: Provision a VM with Windows 10 (21H2) or a compatible server OS.
+- Create a VM running Windows 10 (21H2) or a compatible server OS.
+
+- Use Remote Desktop (RDP) to access the VM.
 
 **2. Install Internet Information Services (IIS)** 
 
@@ -62,10 +63,20 @@ This project demonstrates the steps to set up and install osTicket v1.15.8 on a 
 
 . php_opcache.dll
 
-**4. Set Up the Database**
-- Install HeidiSQL from the installation files.
-- Open HeidiSQL and create a new session (root/root).
-- Connect to the session and create a database called osTicket.
+**4. Install MySQL Server & HeidiSQL**
+- Install MySQL Server (mysql-5.5.62-win32.msi).
+
+- Set the root password to root.
+
+- Install HeidiSQL (HeidiSQL_12.3.0.6589_Setup.exe).
+
+**Create Database for osTicket:**
+
+- Open HeidiSQL.
+
+- Create a new session (root/root).
+
+- Connect and create a database named osTicket.
 
 <img src="https://i.imgur.com/tlwie81.png"/>
 
